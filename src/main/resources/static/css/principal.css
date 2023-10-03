@@ -1,0 +1,18 @@
+:root{
+    --azulPrincipal:rgb(93, 174, 255);
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: var(--azulPrincipal);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    padding-top: 1%;
+}
